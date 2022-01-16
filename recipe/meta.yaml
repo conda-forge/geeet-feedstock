@@ -1,5 +1,5 @@
 {% set name = "geeet" %}
-{% set version = "0.0.2" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cb0f77450f6c41dea7d11e719e220ef9a0200b505ae94c47e39a8520fa918963
+  sha256: b9ea0652338ae85c4352790768fc52c7d55bf3784bc89aad42bc466a450cc571
 
 build:
   number: 0
@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - numpy
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
