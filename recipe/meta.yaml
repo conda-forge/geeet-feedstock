@@ -1,5 +1,5 @@
 {% set name = "geeet" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b9ea0652338ae85c4352790768fc52c7d55bf3784bc89aad42bc466a450cc571
+  sha256: 8dde6642b2c17f401320fddae1c021d210eef38e0daebc0c20fd48966c74c744
 
 build:
   number: 0
