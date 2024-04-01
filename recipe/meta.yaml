@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a81f3896c62c8cb7b8108a08be2204afd94ca10e9a401f8c48adab789d451822
+  url: https://github.com/kaust-halo/geeet/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 3ce4da6de2cd6fc18325d1e879f747ff0677f4f9acf1be73a8ffac1eeda57f78
 
 build:
   number: 0
